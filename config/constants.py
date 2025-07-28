@@ -1,0 +1,5 @@
+MODEL = 'gpt-4o-mini'
+TEXT_MENTION = 'STOP'
+WORK_DIRECTORY = 'temp'
+TIMEOUT = 120
+MAX_TURNS = 10
