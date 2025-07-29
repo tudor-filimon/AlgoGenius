@@ -56,7 +56,7 @@ This project uses `uv` for dependency management. If you don't have `uv` install
 
    ```bash
    git clone <your-repo-url>
-   cd crm-agent
+   cd algo-genius
    uv sync  # Install dependencies
    ```
 
@@ -85,25 +85,8 @@ This project uses `uv` for dependency management. If you don't have `uv` install
 ### Start the Chat Interface
 
 ```bash
-cd frontend
-uv run python chat_local.py
-```
-
-You should see Ralph introduce himself:
-
-```
----- 🤖 Assistant ----
-
-Hi there! I'm Ralph, your customer service agent and marketing expert. I'm here to help you understand your customers better and create targeted marketing campaigns that drive results.
-
-I have access to your CRM database with customer information, transaction history, and RFM analysis. I can help you:
-
-🎯 Analyze customer behavior and segments
-📧 Create personalized marketing campaigns
-📊 Generate insights from your customer data
-✉️ Send targeted emails to specific customer groups
-
-What would you like to work on today?
+pip install -r requirements.txt
+python3 run app.py
 ```
 
 ### Example Interactions
