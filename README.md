@@ -50,37 +50,7 @@ https://github.com/user-attachments/assets/6bdccc3e-84c0-451c-bf12-386c271cba8a
 
 Want to get started immediately? Here's the fastest path:
 
-This project uses `uv` for dependency management. If you don't have `uv` installed, follow the instructions [here](https://docs.astral.sh/uv/guides/install-python/).
-
-1. **Setup**:
-
-   ```bash
-   git clone <your-repo-url>
-   cd algo-genius
-   uv sync  # Install dependencies
-   ```
-
-2. **Configure environment**:
-
-   ```bash
-   cp .env.example .env
-   # Edit .env with your OpenAI API key and Supabase URI
-   ```
-
-3. **Setup database** (create free Supabase account at [supabase.com](https://supabase.com)):
-
-   - Create a new Supabase project. Use the generate_password feature to generate a secure password, copy it into the .env file for use later.
-   - Copy the connection string from the Supabase project settings and paste it into the .env file (you'll see a 'connect' button at the top of the dashboard), replacing the placeholder with the actual connection string.
-   - Replace the password placeholder with the password you generated earlier.
-   - Copy and paste the sql from `db/migration-create-tables.sql` into the Supabase SQL editor. This will automatically create all of the db tables for you.
-   - Import each CSV file from the `data` directory into the corresponding table in Supabase.
-
-4. **Verify and run**:
-   ```bash
-   cd frontend && uv run python chat_local.py  # Start chatting with Ralph!
-   ```
-
-## 🎮 Running the Application
+This project uses `pip` for dependency management. If you don't have `pip` installed, follow the instructions [here](https://pip.pypa.io/en/stable/installation/).
 
 ### Start the Chat Interface
 
