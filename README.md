@@ -2,6 +2,11 @@
 
 Welcome to my first team in my journey to learn Microsoft AutoGen! I was inspired to start this project while starting off my Leetcode DSA-style problem solving journey to have an assistant to help me along my journey :)
 
+
+https://github.com/user-attachments/assets/6bdccc3e-84c0-451c-bf12-386c271cba8a
+
+
+
 ## 🎯 What I Learned
 
 - Built an AI agent using **MicrosoftAutogen** and **OpenAI**
