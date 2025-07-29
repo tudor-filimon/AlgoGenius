@@ -83,7 +83,7 @@ Try these commands to see Ralph in action:
 - **Microsoft AutoGen**: Framework for building teams of AI agents
 - **MCP (Model Context Protocol)**: Standard for AI tool integration
 
-- [LangGraph Documentation](https://microsoft.github.io/autogen/stable//index.html)
+- [AutoGen Documentation](https://microsoft.github.io/autogen/stable//index.html)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 
 ## 🤝 Contributing
